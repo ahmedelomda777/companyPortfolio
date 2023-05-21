@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/34efdf7f99.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar row ">
+<div class="  col-2 col-sm-2 col-md-2 col-lg-2 ">
+    <a class="logo" href="index.html">findstate</a>
+</div>
+
+    <div class="right-nav col-10 col-sm-10  col-md-10  col-lg-10">
+    <a class="home" href="index.html">home</a>
+    <a class="about" href="">about</a>
+    <a class="services" href="">services</a>
+    <a class="agent" href="">agent</a>
+    <a class="listing" href="">listing</a>
+    <a class="blog" href="">blog</a>
+    <a class="contact" href="contact.html">contact</a>
+    <p onclick="dark()" class="dark ">mode  <i class="fa-regular fa-moon"></i> </p>
+</div>
+<div class="dropdown row col-10 col-sm-10">
+    <button onclick="list()"
+      class="btn  dropdown-toggle"
+      type="button" 
+      id="dropdownMenuButton"
+      data-mdb-toggle="dropdown"
+      aria-expanded="false"
+    >
+    <i id="mark" class="fa-solid fa-bars"></i>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <li><p><a class="dropdown-item items " href="index.html">home</a></p></li>
+      <li><p><a class="dropdown-item items" href="#">about</a></p></li>
+      <li><p><a class="dropdown-item items" href="#">services</a></p></li>
+      <li><p><a class="dropdown-item items" href="#">agent</a></p></li>
+      <li><p><a class="dropdown-item items" href="#">listing</a></p></li>
+      <li><p><a class="dropdown-item items" href="#">blog</a></p></li>
+      <li><p><a class="dropdown-item items" href="#">contact</a></p></li>
+      <li onclick="dark()" class="dark items">  mode  <i class="fa-regular fa-moon"></i> </li>
+
+
+    </ul>
+  </div>
+</nav >
+  <section class="container-fluid">
+
+<section class="bg">
+    <div class=" text col-12 wow fadeInUp" data-wow-duration="2s" >
+    <h1>find properties <br>that make you money</h1>
+    <button type="button" class="btn btn-warning">search properties</button>
+</div>
+</section>
+<div class="lin"></div>
+<div class="down">
+<i class="fa-solid fa-arrow-down"></i>
+</div>
+<section class="user-data wow fadeInUp" data-wow-offset="15">
+  <form>
+    <div class="box col-12 col-sm-6 col-md-6 col-lg-2">
+      <label>Location</label>
+  <input type="text" class="local" name="local" placeholder="City/Locality Name" ></input>
+ 
+</div>
+<div class="box col-12 col-sm-6 col-md-6 col-lg-2">
+  <label>Property Type</label>
+  <select class="form-select" >
+    <option selected>Type</option>
+    <option value="Office">Office</option>
+    <option value="commercial">commercial</option>
+    <option value="Villa">Villa</option>
+  </select>
+</div>
+<div class="box col-12 col-sm-6 col-md-6 col-lg-2">
+  <label>Property Status</label>
+  <select class="form-select" >
+    <option selected>Type</option>
+    <option value="Rent">Rent</option>
+    <option value="Sale">Sale</option>
+  </select> 
+</div>
+<div class="box col-12 col-sm-6 col-md-6 col-lg-2">
+  <label>Price Limit</label>
+  <select class="form-select" aria-label="Default select example">
+    <option selected value="$5,000">$5,000</option>
+    <option value="$10,000">$10,000</option>
+    <option value="$20,000">$20,000</option>
+    <option value="$40,000">$40,000</option>
+    <option value="$60,000">$60,000</option>
+    <option value="$80,000">$80,000</option>
+    <option value="$100,000">$100,000</option>
+    <option value="$200,000">$200,000</option>
+    <option value="$300,000">$300,000</option>
+    <option value="$400,000">$400,000</option>
+    <option value="$500,000">$500,000</option>
+    <option value="$600,000">$600,000</option>
+    <option value="$700,000">$700,000</option>
+    <option value="$800,000">$800,000</option>
+    <option value="$900,000">$900,000</option>
+    <option value="$1,000,000">$1,000,000</option>
+
+
+
+  </select>
+</div>
+  <input type="submit" class="btn btn-warning sub col-12 col-sm-6 col-md-6 col-lg-2" value="search properties"></input>
+</form>
+</section>
+<section class="prod-cont">
+  <div class="offer wow fadeInUp"  data-wow-offset="50">
+    <p>what we offer</p>
+    <h1>Exclusive Offer For You</h1>
+  </div>
+  <div class="products">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4">
+      <div class="col wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="20">
+        <div class="card">
+          <img src="work-1.jpg.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+          <div class="overlay container ">
+            <div class="seller">
+            <img src="person_1.jpg.webp">
+            <p>Ahmed El-omda</p>
+          </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-title same"><del>$8,000</del><span>$3,050</span></p>
+            <h4>Blue View Home</h4>
+            <p class="card-text same">
+              2854 Meadow View Drive, Hartford, USA
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="20">
+        <div class="card">
+          <img src="work-2.jpg.webp" class="card-img-top" alt="Palm Springs Road"/>
+          <div class="overlay container ">
+            <div class="seller">
+            <img src="person_1.jpg.webp">
+            <p>Ahmed El-omda</p>
+          </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-title same"><del>$8,000</del><span>$3,050</span></p>
+            <h4>Blue View Home</h4>         
+               <p class="card-text same">
+                2854 Meadow View Drive, Hartford, USA
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="20">
+        <div class="card">
+          <img src="work-3.jpg.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+          <div class="overlay container ">
+            <div class="seller">
+            <img src="person_1.jpg.webp">
+            <p>Ahmed El-omda</p>
+          </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-title same"><del>$8,000</del><span>$3,050</span></p>
+            <h4>Blue View Home</h4>    
+                    <p class="card-text same">2854 Meadow View Drive, Hartford, USA
+                    </p>
+          </div>
+        </div>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="20">
+        <div class="card">
+          <img src="work-4.jpg.webp" class="card-img-top" alt="Skyscrapers"/>
+          <div class="overlay container ">
+            <div class="seller">
+            <img src="person_1.jpg.webp">
+            <p>Ahmed El-omda</p>
+          </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-title same"><del>$8,000</del><span>$3,050</span></p>
+            <h4>Blue View Home</h4>
+                        <p class="card-text same">
+                          2854 Meadow View Drive, Hartford, USA
+
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="20">
+        <div class="card">
+          <img src="work-5.jpg.webp" class="card-img-top" alt="Skyscrapers"/>
+          <div class="overlay container ">
+            <div class="seller">
+            <img src="person_1.jpg.webp">
+            <p>Ahmed El-omda</p>
+          </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-title same"><del>$8,000</del><span>$3,050</span></p>
+            <h4>Blue View Home</h4>
+                        <p class="card-text same">
+                          2854 Meadow View Drive, Hartford, USA
+  
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="20">
+        <div class="card">
+          <img src="work-6.jpg.webp" class="card-img-top" alt="Skyscrapers"/>
+          <div class="overlay container ">
+            <div class="seller">
+            <img src="person_1.jpg.webp">
+            <p>Ahmed El-omda</p>
+          </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="card-body">
+            <p class="card-title same"><del>$8,000</del><span>$3,050</span></p>
+            <h4>Blue View Home</h4>
+                        <p class="card-text same">
+                          2854 Meadow View Drive, Hartford, USA
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="us">
+<div class="background"></div>
+<div class="why-us wow fadeInUp" data-wow-offset="50">
+  <p>services</p>
+  <h1>why choose us?</h1>
+</div>
+<div class="info">
+  <div class="col-12 col-md-6 wow fadeInUp" data-wow-offset="40">
+    <img src="about.jpg.webp">
+  </div>
+  <div class="col-12 col-md-6">
+    <div class="cont-info wow fadeInUp" data-wow-offset="40">
+      <i class="fa-solid fa-check"></i>
+      <div>
+        <h2>No Downpayment</h2>
+        <p class="same">A small river named Duden flows by their place and supplies it with the necessary regelialia</p>
+      </div>
+    </div>
+    <div class="cont-info wow fadeInUp" data-wow-offset="40">
+            <i class="fa-solid fa-check"></i>
+      <div>
+        <h2>All Cash Offer</h2>
+        <p class="same">A small river named Duden flows by their place and supplies it with the necessary regelialia</p>
+      </div>
+    </div>
+    <div class="cont-info wow fadeInUp" data-wow-offset="40">
+            <i class="fa-solid fa-check"></i>
+      <div>
+        <h2>Experts In Your Corner</h2>
+        <p class="same">A small river named Duden flows by their place and supplies it with the necessary regelialia</p>
+      </div>
+    </div>
+    <div class="cont-info wow fadeInUp" data-wow-offset="40">
+            <i class="fa-solid fa-check"></i>
+      <div>
+        <h2>Locked In Pricing</h2>
+        <p class="same">A small river named Duden flows by their place and supplies it with the necessary regelialia</p>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+<div class="cont-numbers">
+  <div class="square"></div>
+  <div class="numbers">
+    <div class="dis col-6 col-md-3 wow fadeInUp" data-wow-delay="0.1s" data-wow-offset="20" >
+    <h1>305</h1>
+    <p class="same">
+      Area<br> Population</p>
+    </div>
+    <div class="dis col-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s" data-wow-offset="20">
+    <h1>1,090</h1>
+    <p class="same">
+      Total<br> Properties
+    </p>
+  </div>
+  <div class="dis col-6 col-md-3 wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="20">
+    <h1>209</h1>
+    <p class="same">Average<br>
+      House</p>
+    </div>
+    <div class="dis col-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="20">
+    <h1>67</h1>
+    <p class="same">Total<br>
+      Branches</p>
+    </div>
+  </div>
+</div>
+</section>
+<section>
+  <div class="properties wow fadeInUp" data-wow-offset="100">
+    <p>find properties</p>
+    <h1>Find Properties In Your City</h1>
+  </div>
+ <div class="prop-options container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+    <div class="col  wow fadeInUp" data-wow-delay="0.1s" data-wow-offset="20">
+      <div class="option">
+        <img src="listing-1.jpg.webp" class="card-img-topp" />
+        <div class="card-text">
+          <p>New York, USA</p>
+          <div>
+          <h5 class="card-title">100 Property Listing</h5>
+          <a href="#">
+            See All Listing 
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col  wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="20">
+      <div class="option">
+        <img src="listing-2.jpg.webp" class="card-img-topp" />
+        <div class="card-text">
+          <p>New York, USA</p>
+          <div>
+          <h5 class="card-title">100 Property Listing</h5>
+          <a href="#">
+            See All Listing 
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col  wow fadeInUp" data-wow-delay="0.5s" data-wow-offset="20">
+      <div class="option">
+        <img src="listing-3.jpg.webp" class="card-img-topp" />
+        <div class="card-text">
+          <p>New York, USA</p>
+          <div>
+          <h5 class="card-title">100 Property Listing</h5>
+          <a href="#">
+            See All Listing 
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col  wow fadeInUp" data-wow-delay="0.1s" data-wow-offset="20">
+      <div class="option">
+        <img src="listing-4.jpg.webp" class="card-img-topp" />
+        <div class="card-text">
+          <p>New York, USA</p>
+          <div>
+          <h5 class="card-title">100 Property Listing</h5>
+          <a href="#">
+            See All Listing 
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col  wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="20">
+      <div class="option">
+        <img src="listing-5.jpg.webp" class="card-img-topp" />
+        <div class="card-text">
+          <p>New York, USA</p>
+          <div>
+          <h5 class="card-title">100 Property Listing</h5>
+          <a href="#">
+            See All Listing 
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col  wow fadeInUp" data-wow-delay="0.5s" data-wow-offset="20">
+      <div class="option">
+        <img src="listing-6.jpg.webp" class="card-img-topp" />
+        <div class="card-text">
+          <p>New York, USA</p>
+          <div>
+          <h5 class="card-title">100 Property Listing</h5>
+          <a href="#">
+            See All Listing 
+          </a>
+        </div>
+        </div>
+      </div>
+    </div>
+   
+  </div> </div>
+</section>
+
+<section class="cont-comment ">
+  <section class="container">
+  <div class="client wow fadeInUp" data-wow-offset="50">
+  <p>testimonial</p>
+  <h1>Happy Clients</h1>
+   </div>
+ <div class="comments wow fadeInUp" data-wow-offset="100">
+<div class="comment col-12 col-md-4">
+  <p>
+    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+  </p>
+  <div class="content">
+    <img src="person_1.jpg.webp" >
+    <div>
+      <h2>Ahmed El-omda</h2>
+      <p>Marketing manager</p>
+    </div>
+  </div>
+</div>
+<div class="comment col-12 col-md-4">
+  <p>
+    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+  </p>
+  <div class="content">
+    <img src="person_2.jpg.webp" >
+    <div>
+      <h2>Ahmed El-omda</h2>
+      <p>Marketing manager</p>
+    </div>
+  </div>
+</div>
+<div class="comment col-12 col-md-4">
+  <p>
+    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+  </p>
+  <div class="content">
+    <img src="person_3.jpg.webp" >
+    <div>
+      <h2>Ahmed El-omda</h2>
+      <p>Marketing manager</p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+</section>
+<section class="cont-agents ">
+  <div class="our-agents wow fadeInUp" data-wow-offset="50">
+    <p>agents</p>
+  <h1>Our Agents</h1>
+   </div>
+   <div class="persons">
+    <div class="person wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="50">
+      <div class="overflow">
+      <img src="team-1.jpg.webp">
+    </div>
+      <h6>Ben Ford</h6>
+      <p>43 Properties</p>
+    </div>
+    <div class="person wow fadeInUp" data-wow-delay="0.5s" data-wow-offset="50">
+      <div class="overflow">
+        <img src="team-2.jpg.webp">
+      </div>
+      <h6>John Cooper</h6>
+      <p> 40 Properties</p>
+    </div>
+    <div class="person wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="50">
+      <div class="overflow">
+        <img src="team-3.jpg.webp">
+      </div>
+      <h6>Janice Clinton</h6>
+      <p>30 Properties</p>
+    </div>
+    <div class="person wow fadeInUp" data-wow-delay="0.7s" data-wow-offset="50">
+      <div class="overflow">
+        <img src="team-4.jpg.webp">
+      </div>
+      <h6>Eunice Henceford</h6>
+      <p>25 Properties</p>
+    </div>
+   </div>
+</section>
+
+
+<section class="cont-blog">
+  <div class="recent wow fadeInUp" data-wow-offset="50">
+    <p>blog</p>
+  <h1>Recent Blog</h1>
+   </div>
+   <div class="exambles container">
+    <div class="examble wow fadeInUp" data-wow-delay="0.4s" data-wow-offset="20">
+      <a href="#" ><img src="image_1.jpg.webp"></a>
+      <a class="ex-h" href="#" ><h3>Why Lead Generation is Key for Business Growth</h3></a>
+      <p class="same"><span> October 17, 2019 </span><span> Admin </span> <span><i class="fa-solid fa-message"></i> 3</span></p> 
+    </div>
+    <div class="examble wow fadeInUp" data-wow-delay="0.5s" data-wow-offset="20">  
+          <a href="#" ><img src="image_2.jpg.webp"></a>
+          <a class="ex-h" href="#" ><h3>Why Lead Generation is Key for Business Growth</h3></a>
+          <p class="same"><span> October 17, 2019 </span><span> Admin </span> <span><i class="fa-solid fa-message"></i> 3</span></p> 
+
+    </div>
+    <div class="examble wow fadeInUp" data-wow-delay="0.6s" data-wow-offset="20">
+      <a href="#" ><img src="image_3.jpg.webp"></a>
+      <a class="ex-h" href="#" ><h3>Why Lead Generation is Key for Business Growth</h3></a>
+      <p class="same"><span> October 17, 2019 </span><span> Admin </span> <span><i class="fa-solid fa-message"></i> 3</span></p> 
+
+
+    </div>
+    <div class="examble wow fadeInUp" data-wow-delay="0.7s" data-wow-offset="20">
+      <a href="#" ><img src="image_4.jpg.webp"></a>
+      <a class="ex-h" href="#" ><h3>Why Lead Generation is Key for Business Growth</h3></a>
+      <p class="same"><span> October 17, 2019 </span><span> Admin </span> <span><i class="fa-solid fa-message"></i> 3</span></p> 
+
+    </div>
+   </div>
+</section>
+  </section>
+
+
+<footer class="text-center text-lg-start">
+
+  <section class="cont-footer">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Findstate
+          </h6>
+          <p>
+            Far far away, behind the word mountains, far from the countries 
+          </p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Community
+          </h6>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i> Search Properties</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i> For Agents
+            </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i> Reviews</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i> FAQs</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Company
+          </h6>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i>About Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i>Meet the team</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i>Careers</a>
+          </p>
+         
+        </div>
+     
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p class="loca"><i class="fas fa-home me-3"></i> Egypt , Dakahlia , Mansoura </p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            ahmedabs777@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 20 106 916 0736</p>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13677.471264236026!2d31.39867085548704!3d31.016000331035453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79c452c9f3e19%3A0xc1b18fad0daf6904!2z2LPZhtiv2YjYqNiMINmF2YbZitipINiz2YbYr9mI2KjYjCDYp9mE2YXZhti12YjYsdip2Iwg2KfZhNiv2YLZh9mE2YrYqSA3NjUxMTYx!5e0!3m2!1sar!2seg!4v1684626172160!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Links  -->
+  <div class="my-media">
+    <a href="https://web.facebook.com/profile.php?id=100048936392914" target="_blank" class="me-4 text-reset">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    
+    <a href="https://www.instagram.com/ahmedabs777/" target="_blank" class="me-4 text-reset">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/ahmed-el-omda-6b1097253/" target="_blank" class="me-4 text-reset">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/ahmedelomda777"  target="_blank" class="me-4 text-reset">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <!-- Copyright -->
+  <div class="text-center p-4 copy">
+    Copyright ©2023 All rights reserved | This template is made with 🤍 by <span>Ahmed Abbas</span>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="dist/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    <script src="js/bootstrap.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

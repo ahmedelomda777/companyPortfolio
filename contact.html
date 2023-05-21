@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="libs/animate.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="https://kit.fontawesome.com/34efdf7f99.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="contact.css">
+        <title>Contact</title>
+    </head>
+<body>
+  <nav class="navbar row ">
+    <div class="  col-2 col-sm-2 col-md-2 col-lg-2 ">
+        <a class="logo" href="index.html">findstate</a>
+    </div>
+    
+        <div class="right-nav col-10 col-sm-10  col-md-10  col-lg-10">
+        <a class="home" href="index.html">home</a>
+        <a class="about" href="">about</a>
+        <a class="services" href="">services</a>
+        <a class="agent" href="">agent</a>
+        <a class="listing" href="">listing</a>
+        <a class="blog" href="">blog</a>
+        <a class="contact" href="contact.html">contact</a>
+        <p onclick="dark()" class="dark ">mode  <i class="fa-regular fa-moon"></i> </p>
+    </div>
+    <div class="dropdown row col-10 col-sm-10">
+        <button onclick="list()"
+          class="btn  dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+        <i id="mark" class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><p><a class="dropdown-item items " href="index.html">home</a></p></li>
+          <li><p><a class="dropdown-item items" href="#">about</a></p></li>
+          <li><p><a class="dropdown-item items" href="#">services</a></p></li>
+          <li><p><a class="dropdown-item items" href="#">agent</a></p></li>
+          <li><p><a class="dropdown-item items" href="#">listing</a></p></li>
+          <li><p><a class="dropdown-item items" href="#">blog</a></p></li>
+          <li><p><a class="dropdown-item items" href="#">contact</a></p></li>
+          <li onclick="dark()" class="dark items">  mode  <i class="fa-regular fa-moon"></i> </li>
+    
+    
+        </ul>
+      </div>
+    </nav >
+    <section class="bg">
+    </section>
+    <div class="lin"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="container-fluid">
+    <form onsubmit="sendEmail(); reset(); return false;" class="row row-cols-1 g-3">
+        <div class=" col input">
+            <label for="inputName4" class="form-label">Name</label>
+            <input type="text"  class="form-control name" id="inputName4" placeholder="Enter your Name">
+            <p class="p1" id="p1" >fill up your name</p>
+          </div>
+   
+        <div class=" col input">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" autocomplete="off" class="form-control email" id="inputEmail4" placeholder="Enter your Email">
+          <p class="p2" id="p2">*including @ and more than 9 characters</p>
+
+        </div>
+
+        <div class=" col input">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control pass" id="inputPassword4" placeholder="Enter your Password">
+          <p class="p3" id="p3">*make it strong by adding litters and numbers and marks</p>
+
+        </div>
+
+        <div class="col input">
+            <textarea rows="5" cols="10" class="form-controln message" id="message" placeholder="Do you have any problem?"></textarea>
+             <p class="alert">* the message will send to my email(Ahmed Abbas)*</p>
+             <p class="p4" id="p4">please fill up your message</p>
+            </div>
+        <div class="col input">
+          <button type="submit" class="send">Send</button>
+        </div>
+      </form>
+    </section>
+    
+<footer class="text-center text-lg-start">
+
+  <section class="cont-footer">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Findstate
+          </h6>
+          <p>
+            Far far away, behind the word mountains, far from the countries 
+          </p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Community
+          </h6>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i> Search Properties</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i> For Agents
+            </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i> Reviews</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i> FAQs</a>
+          </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">
+            Company
+          </h6>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i>About Us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i>Meet the team</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset"><i class="fa-solid fa-arrow-right"></i>Careers</a>
+          </p>
+         
+        </div>
+     
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p class="loca"><i class="fas fa-home me-3"></i> Egypt , Dakahlia , Mansoura </p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            ahmedabs777@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 20 106 916 0736</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Links  -->
+  <div class="my-media">
+    <a href="https://web.facebook.com/profile.php?id=100048936392914" target="_blank" class="me-4 text-reset">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    
+    <a href="https://www.instagram.com/ahmedabs777/" target="_blank" class="me-4 text-reset">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/ahmed-el-omda-6b1097253/" target="_blank" class="me-4 text-reset">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/ahmedelomda777"  target="_blank" class="me-4 text-reset">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <!-- Copyright -->
+  <div class="text-center p-4 copy">
+    Copyright ©2023 All rights reserved | This template is made with 🤍 by <span>Ahmed Abbas</span>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+
+
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script>
+    function sendEmail(){
+      Email.send({
+    SecureToken : "018a4d5d-e348-4757-9cad-67dbb32e2dd1",
+    To : 'ahmedabs777@gmail.com',
+    From : "ahmedabs777@gmail.com",
+    Subject : "from my project",
+    Body : "Name :" + document.querySelector(".name").value
+   + "<br> Email : " + document.querySelector(".email").value
+   + "<br> Message :" + document.querySelector(".message").value
+
+   
+}).then(
+  message => alert("message sent successfully")
+);
+    }
+   </script>
+   <script src="contact.js"></script>
+</body>
+</html>
