@@ -312,7 +312,10 @@ footer i {
  font-size: 25px;
 
 }
-
+iframe{
+    width: 250px;
+    height: 200px;
+}
 
 
 
@@ -349,6 +352,15 @@ footer i {
     margin-right: 30px;
     border: #fff 3px solid;
 
+}
+footer{
+    width: 100vw;
+}
+footer p{
+margin: auto;
+padding-left: 40px;
+width: fit-content;
+margin-bottom: 20px;
 }
 }
 @media (min-width: 769px) and (max-width: 991px){
