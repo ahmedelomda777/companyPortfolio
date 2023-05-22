@@ -75,7 +75,7 @@
 
 
     <section class="container-fluid">
-    <form onsubmit="sendEmail(); reset(); return false;" class="row row-cols-1 g-3">
+    <form onsubmit="sendEmail(); reset(); return false" class="row row-cols-1 g-3">
         <div class=" col input">
             <label for="inputName4" class="form-label">Name</label>
             <input type="text"  class="form-control name" id="inputName4" placeholder="Enter your Name">
@@ -210,8 +210,6 @@
     Body : "Name :" + document.querySelector(".name").value
    + "<br> Email : " + document.querySelector(".email").value
    + "<br> Message :" + document.querySelector(".message").value
-
-   
 }).then(
   message => alert("message sent successfully")
 );

@@ -127,12 +127,12 @@ if (validateName==="false"||validateEmail==="false"||validatePass==="false"||val
  event.preventDefault()
 
  if(validateName==="false"){
-  p2.style.display="block"
+  p1.style.display="block"
   namee.style.border="red solid 1px"
 
  }
  else if(validateEmail==="false"){
-  p1.style.display="block"
+  p2.style.display="block"
   email.style.border="red solid 1px"
   p1.textContent="please fill up your email\">9\""
 
@@ -151,7 +151,7 @@ if (validateName==="false"||validateEmail==="false"||validatePass==="false"||val
  }}
 
 else {
-  function sendEmail(){}
+  function sendEmail()
 }
 }
 
